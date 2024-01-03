@@ -14,7 +14,7 @@ We provide the following codes for use:
   4. plot the similarity heatmap used in our paper  
 
 ## Virtual Environment  
-Multiple Python packages are required to run our codes, requirement.txt is given.  
+Multiple Python packages are required to run our codes. The required packages and their versions are included in requirement.txt file.  
 ```bash
 conda create -n DIKI python==3.8.11  
 conda activate DIKI  
