@@ -17,7 +17,7 @@ We provide the following codes for use:
 ## Virtual Environment  
 The required packages and their versions are included in requirement.txt file. Run the following commands to build your environment:  
 ```bash
-conda create -n DIKI python==3.8.11  
+conda create -n DIKI python=3.8.11  
 conda activate DIKI  
 pip install -r requirement.txt
 ```
