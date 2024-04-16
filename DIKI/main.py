@@ -82,6 +82,7 @@ if __name__ == '__main__':
     embeddings = model(all_data)[1].numpy()
     estimator.fit(embeddings)
     df = pd.DataFrame()
+    df['frames'] = np.arange(1,len(all_data)+1)
     df['encoding1'] = embeddings[:,0]
     df['encoding2'] = embeddings[:,1]
     df['labels'] = estimator.labels_
