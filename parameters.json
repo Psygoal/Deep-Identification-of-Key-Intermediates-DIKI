@@ -1,0 +1,20 @@
+{
+"is_aligned": 1,
+"is_warmedup": 1,
+"layers_dim": [250,200,150,50],
+"psf_file_path": "test.psf",
+"dcd_file_path": "test.dcd",
+"aligned_npz": "./aligned.npz",
+"selection": "resid 410:430 and (not name H*)",
+"warmed_up_model_path": "./warmedup.h5",
+"min_cluster_size":200,
+"min_samples":100,
+"cluster_selection_method":"eom",
+"sigma":10,
+"DIKI_saved_path":"DIKI.h5",
+"lam":1,
+"DIKI_batch_size":128,
+"DIKI_epochs":200,
+"encoding_info_path":"./encoding_info.csv",
+"similarity_heatmap_saved_path":"./similarity_heatmap.jpg"
+}
