@@ -32,34 +32,34 @@ to training DIKI.
 ## Parameters interpretation
 &ensp;&ensp;```is_aligned``` bool, 0 or 1. Whether the dcd trajectory is aligned. If the value is set as 0, the Cartesian coordinates matrix will aligned with the frame-0 structure, and the aligned results will saved at ```aligned_npz```, otherwise the coordinates will be loaded from ```aligned_npz```.  
 <br/> 
-&ensp;&ensp;```is_warmedup``` bool, 0 or 1. Whether the VAE model is pretrained. If the value is set as 0, the model will be initiliazed and trained from the beginning, and the trained model will saved at ```warmed_up_model_path```, otherwise the model will be loaded from ```warmed_up_model_path```.   
+&ensp;&ensp;```is_warmedup``` **bool**, 0 or 1. Whether the VAE model is pretrained. If the value is set as 0, the model will be initiliazed and trained from the beginning, and the trained model will saved at ```warmed_up_model_path```, otherwise the model will be loaded from ```warmed_up_model_path```.   
 <br/> 
-&ensp;&ensp;```psf_file_path``` str. The path of tology file.    
+&ensp;&ensp;```psf_file_path``` **str**. The path of tology file.    
 <br/> 
-&ensp;&ensp;```dcd_file_path``` str. The path of trajectory file.    
+&ensp;&ensp;```dcd_file_path``` **str**. The path of trajectory file.    
 <br/> 
-&ensp;&ensp;```aligned_npz``` str. The path of aligned coordinates, saved as npz file.    
+&ensp;&ensp;```aligned_npz``` **str**. The path of aligned coordinates, saved as npz file.    
 <br/> 
-&ensp;&ensp;```selection``` str. Atom selection language. Details can be found in MDanalysis docs.   
+&ensp;&ensp;```selection``` **str**. Atom selection language. Details can be found in MDanalysis docs.   
 <br/>
-&ensp;&ensp;```warmed_up_model_path``` str. The path of warmed_up model, saved as h5 format.   
+&ensp;&ensp;```warmed_up_model_path``` **str**. The path of warmed_up model, saved as h5 format.   
 <br/>
-&ensp;&ensp;```min_cluster_size``` int. A pararmter of HDBSCAN, indicating the minimum size of a cluster, also called CFK in our paper.   
+&ensp;&ensp;```min_cluster_size``` **int**. A pararmter of HDBSCAN, indicating the minimum size of a cluster, also called CFK in our paper.   
 <br/>
-&ensp;&ensp;```min_samples``` int. A pararmter of HDBSCAN, indicating the number of samples to calculate core distances, also called FFK in our paper.       
+&ensp;&ensp;```min_samples``` **int**. A pararmter of HDBSCAN, indicating the number of samples to calculate core distances, also called FFK in our paper.       
 <br/>
-&ensp;&ensp;```cluster_selection_method``` str. A pararmter of HDBSCAN, which can be set as "eom" or "leaf".    
+&ensp;&ensp;```cluster_selection_method``` **str**. A pararmter of HDBSCAN, which can be set as "eom" or "leaf".    
 <br/>
-&ensp;&ensp;```sigma``` int. The percentile of probability density, playing a role of threshold for discarding high-free-energy clusters.    
+&ensp;&ensp;```sigma``` **int**. The percentile of probability density, playing a role of threshold for discarding high-free-energy clusters.    
 <br/>
-&ensp;&ensp;```DIKI_saved_path``` str. The path of DIKI model, saved as h5 format.     
+&ensp;&ensp;```DIKI_saved_path``` **str**. The path of DIKI model, saved as h5 format.     
 <br/>
-&ensp;&ensp;```lam``` float. The weight of KL loss, and ```2-lam``` indicates the weight of shrinking loss.    
+&ensp;&ensp;```lam``` **float**. The weight of KL loss, and ```2-lam``` indicates the weight of shrinking loss.    
 <br/>
-&ensp;&ensp;```DIKI_batch_size``` int. Batch size of iterative update of DIKI.    
+&ensp;&ensp;```DIKI_batch_size``` **int**. Batch size of iterative update of DIKI.    
 <br/>
-&ensp;&ensp;```DIKI_epochs``` int. Epochs of iterative update of DIKI.     
+&ensp;&ensp;```DIKI_epochs``` **int**. Epochs of iterative update of DIKI.     
 <br/>
-&ensp;&ensp;```encoding_info_path``` str. The path of DIKI encodings and clustering results, saved as csv format.     
+&ensp;&ensp;```encoding_info_path``` **str**. The path of DIKI encodings and clustering results, saved as csv format.     
 <br/>
-&ensp;&ensp;```similarity_heatmap_saved_path``` str. The path of similarity heatmap, saved as jpg format.     
+&ensp;&ensp;```similarity_heatmap_saved_path``` **str**. The path of similarity heatmap, saved as jpg format.     
