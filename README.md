@@ -6,7 +6,7 @@ DIKI is a VAE-based neural network for analyzing conformations in Molecular Dyna
 The work has been accpeted by Journal of Chemical Theory and Computation (JCTC). Please cite our 
 paper if you use DIKI in your work:  
   
-&ensp;&ensp; X. Liu, J. Xing, W. Cai, X. Shao. Analyzing Molecular Dynamics Trajectories Thermodynamically through Artificial Intelligence. Journal of Chemical Theory and Computation, 2024, 20(2): 665-676.  
+&ensp;&ensp; X. Liu, J. Xing, W. Cai, X. Shao. Analyzing Molecular Dynamics Trajectories Thermodynamically through Artificial Intelligence. Journal of Chemical Theory and Computation, 2024, 20(2): 665-676. DOI: [10.1021/acs.jctc.3c00975  ](http://dx.doi.org/10.1021/acs.jctc.3c00975)
 
 We provide the following codes for use:  
 &ensp;&ensp; 1. align a dcd trajectory to a reference structure and output a npz file of aligned Cartesian coordinates.  
