@@ -14,7 +14,7 @@ We provide the following codes for use:
 &ensp;&ensp; 3. use HDBSCAN iteratively updating the latent space  
 &ensp;&ensp; 4. plot the similarity heatmap used in our paper  
 
-## Virtual Environment  
+## Virtual environment  
 The required packages and their versions are included in requirement.txt file. Run the following commands to build your environment:  
 ```bash
 conda create -n DIKI python=3.8.11  
