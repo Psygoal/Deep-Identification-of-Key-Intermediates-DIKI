@@ -3,8 +3,8 @@
 Deep Identification of Key Intermediates
 
 DIKI is a VAE-based neural network for analyzing conformations in Molecular Dynamics trajectories.
-The work has been accpeted by Journal of Chemical Theory and Computation (JCTC). Please cite our 
-paper if you use DIKI in your work:  
+The work has been published on Journal of Chemical Theory and Computation (JCTC). Please cite our 
+paper:  
   
 &ensp;&ensp; X. Liu, J. Xing, W. Cai, X. Shao. Analyzing Molecular Dynamics Trajectories Thermodynamically through Artificial Intelligence. Journal of Chemical Theory and Computation, 2024, 20(2): 665-676. DOI: [10.1021/acs.jctc.3c00975  ](http://dx.doi.org/10.1021/acs.jctc.3c00975)
 
