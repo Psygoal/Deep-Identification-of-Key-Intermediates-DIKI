@@ -63,3 +63,5 @@ to training DIKI.
 &ensp;&ensp;```encoding_info_path``` **str**. The path of DIKI encodings and clustering results, saved as csv format.     
 <br/>
 &ensp;&ensp;```similarity_heatmap_saved_path``` **str**. The path of similarity heatmap, saved as jpg format.     
+<br/>
+&ensp;&ensp;```similarity_heatmap_number``` **int**. The number of structures of each cluster for plotting similarity heatmap.
