@@ -30,7 +30,7 @@ python ./DIKI/main.py -p ./parameters.json
 to training DIKI.
 
 ## Parameters interpretation
-&ensp;&ensp;```is_aligned``` bool, 0 or 1. Whether the dcd trajectory is aligned. If the value is set as 0, the Cartesian coordinates matrix will aligned with the frame-0 structure, and the aligned results will saved at ```aligned_npz```, otherwise the coordinates will be loaded from ```aligned_npz```.  
+&ensp;&ensp;```is_aligned``` **bool**, 0 or 1. Whether the dcd trajectory is aligned. If the value is set as 0, the Cartesian coordinates matrix will aligned with the frame-0 structure, and the aligned results will saved at ```aligned_npz```, otherwise the coordinates will be loaded from ```aligned_npz```.  
 <br/> 
 &ensp;&ensp;```is_warmedup``` **bool**, 0 or 1. Whether the VAE model is pretrained. If the value is set as 0, the model will be initiliazed and trained from the beginning, and the trained model will saved at ```warmed_up_model_path```, otherwise the model will be loaded from ```warmed_up_model_path```.   
 <br/> 
