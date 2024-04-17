@@ -89,4 +89,4 @@ if __name__ == '__main__':
     df.to_csv(encoding_info_path,index=False)
     
     # plot similarity figure
-    simliarityplot(model,estimator,all_data,similarity_heatmap_saved_path)
+    simliarityplot(model,estimator,all_data,similarity_heatmap_saved_path,similarity_heatmap_number)
