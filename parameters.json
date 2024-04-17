@@ -16,5 +16,6 @@
 "DIKI_batch_size":128,
 "DIKI_epochs":200,
 "encoding_info_path":"./encoding_info.csv",
-"similarity_heatmap_saved_path":"./similarity_heatmap.jpg"
+"similarity_heatmap_saved_path":"./similarity_heatmap.jpg",
+"similarity_heatmap_number":100
 }
