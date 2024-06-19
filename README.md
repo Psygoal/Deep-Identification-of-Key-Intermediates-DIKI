@@ -1,6 +1,6 @@
 ![header](images/toc.jpg)
 # DIKI
-Deep Identification of Key Intermediates
+[Deep Identification of Key Intermediates](https://github.com/Psygoal/Deep-Identification-of-Key-Intermediates-DIKI/)
 
 DIKI is a VAE-based neural network for analyzing conformations in Molecular Dynamics trajectories.
 The work has been published on Journal of Chemical Theory and Computation (JCTC). Please cite our 
