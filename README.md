@@ -14,7 +14,13 @@ We provide the following codes for use:
 &ensp;&ensp; 3. use HDBSCAN iteratively updating the latent space  
 &ensp;&ensp; 4. plot the similarity heatmap used in our paper  
 
-## Virtual environment  
+## clone the repository     
+```bash
+git clone https://github.com/Psygoal/Deep-Identification-of-Key-Intermediates-DIKI/
+cd ./Deep-Identification-of-Key-Intermediates-DIKI/
+```
+
+## environment  
 The required packages and their versions are included in requirement.txt file. Run the following commands to build your environment:  
 ```bash
 conda create -n DIKI python=3.8.11  
@@ -22,14 +28,14 @@ conda activate DIKI
 pip install -r requirement.txt
 ```
 
-## Use of DIKI
+## run DIKI
 The commonly-used hyperparameters of DIKI is defined in ```parameters.json```. Users can simply run
 ```bash
 python ./DIKI/main.py -p ./parameters.json
 ```
 to training DIKI.
 
-## Parameters interpretation
+## parameters
 &ensp;&ensp;```is_aligned``` **bool**, 0 or 1. Whether the dcd trajectory is aligned. If the value is set as 0, the Cartesian coordinates matrix will aligned with the frame-0 structure, and the aligned results will saved at ```aligned_npz```, otherwise the coordinates will be loaded from ```aligned_npz```.  
 <br/> 
 &ensp;&ensp;```is_warmedup``` **bool**, 0 or 1. Whether the VAE model is pretrained. If the value is set as 0, the model will be initiliazed and trained from the beginning, and the trained model will saved at ```warmed_up_model_path```, otherwise the model will be loaded from ```warmed_up_model_path```.   
