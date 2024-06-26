@@ -1,4 +1,4 @@
 mdanalysis
 pandas
 hdbscan
-tensorflow
+tensorflow==2.12.0
