@@ -1,7 +1,4 @@
-numpy==1.22.4
-mdanalysis==2.4.3
-tqdm==4.65.0
-pandas==1.5.3
-hdbscan==0.8.29
-tensorflow==2.11.0
-matplotlib==3.7.1
+mdanalysis
+pandas
+hdbscan
+tensorflow
