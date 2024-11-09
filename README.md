@@ -29,11 +29,11 @@ pip install -r requirement.txt
 ```
 
 ## run DIKI
-The commonly-used hyperparameters of DIKI is defined in ```parameters.json```. Users can simply run
+The commonly used hyperparameters of DIKI are defined in ```parameters.json```. Users can simply run
 ```bash
 python ./DIKI/main.py -p ./parameters.json
 ```
-to training DIKI.
+for training DIKI.
 
 ## parameters
 &ensp;&ensp;```is_aligned``` **bool**, 0 or 1. Whether the dcd trajectory is aligned. If the value is set as 0, the Cartesian coordinates matrix will aligned with the 1st structure in the trajectory, and the aligned results will be saved at ```aligned_npz```, otherwise the coordinates will be loaded from ```aligned_npz```.  
